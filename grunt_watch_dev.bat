@@ -1,1 +1,0 @@
-nvmw use v0.10.10 & grunt w
