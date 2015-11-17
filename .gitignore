@@ -1,0 +1,25 @@
+*~
+*.bak
+Thumbs.db
+desktop.ini
+.DS_Store
+.buildpath
+.project
+.settings
+nbproject/
+.idea
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+*.sample
+*.zip
+*.tar.gz
+node_modules
+.sass-cache
+upload
+prepros.cfg
+.map
+*.map
+*[! -~]*
+public/gulpfile.js
+*.iml
