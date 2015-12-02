@@ -6,7 +6,7 @@ this.ps = this.ps || {};
     /**
      * @class AnimationUtils
      * @date 13/03/21
-     * @author akao
+     * @author sa
      * @constructor
      **/
     var AnimationUtils = function () {

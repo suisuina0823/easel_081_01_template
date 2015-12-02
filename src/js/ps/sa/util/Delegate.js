@@ -6,7 +6,7 @@ this.ps = this.ps||{};
     /**
      * Delegate
      * @class Delegate
-     * @author akao
+     * @author sa
      * @constructor
      **/
     var Delegate = function() {

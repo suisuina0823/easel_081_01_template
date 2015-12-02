@@ -6,7 +6,7 @@ this.ps = this.ps||{};
     /**
      * XMLUtil
      * @class XMLUtil
-     * @author akao
+     * @author sa
      * @constructor
      **/
     var XMLUtil = function() {

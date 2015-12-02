@@ -6,7 +6,7 @@ this.ps = this.ps||{};
     /**
      * NodeUtil
      * @class NodeUtil
-     * @author akao
+     * @author sa
      * @constructor
      **/
     var NodeUtil = function() {

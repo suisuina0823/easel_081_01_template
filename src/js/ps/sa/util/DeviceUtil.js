@@ -6,7 +6,7 @@ this.ps = this.ps||{};
     /**
      * DeviceUtil
      * @class DeviceUtil
-     * @author akao
+     * @author sa
      * @constructor
      **/
     var DeviceUtil = function() {
