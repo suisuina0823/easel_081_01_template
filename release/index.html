@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>template</title>
+
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/lib/jquery-1.7.1.min.js"></script>
+
+    <script type="text/javascript" src="js/lib/easeljs-0.8.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/preloadjs-0.6.1.min.js"></script>
+    <script type="text/javascript" src="js/lib/tweenjs-0.6.1.min.js"></script>
+
+    <!-- develop-->
+	<script type="text/javascript" src="../src/js/ps/model/event/EventDispatcher.js"></script>
+    <script type="text/javascript" src="../src/js/ps/model/event/BroadCaster.js"></script>
+    <script type="text/javascript" src="../src/js/ps/sa/util/Delegate.js"></script>
+    <script type="text/javascript" src="../src/js/ps/sa/util/XMLUtil.js"></script>
+    <script type="text/javascript" src="../src/js/ps/sa/util/MathUtils.js"></script>
+    <script type="text/javascript" src="../src/js/ps/sa/util/AnimationUtils.js"></script>
+
+    <script type="text/javascript" src="../src/js/ps/view/display/loader/LoadManager.js"></script>
+    <script type="text/javascript" src="../src/js/ps/model/data/DataMain.js"></script>
+    <script type="text/javascript" src="../src/js/ps/controller/Controller.js"></script>
+    <script type="text/javascript" src="../src/js/ps/view/Main.js"></script>
+
+    <script type="text/javascript" src="../src/js/ps/view/display/loader/Loader.js"></script>
+    <script type="text/javascript" src="../src/js/ps/view/display/loader/LoaderPercent.js"></script>
+    <script type="text/javascript" src="../src/js/ps/view/display/loader/LoaderPercentNum.js"></script>
+
+
+    <!-- main
+    <script type="text/javascript" src="js/rj/all.min.js"></script>
+     -->
+
+</head>
+	
+<body onload="ps.Main.init();">
+    <div>
+        <div class="canvasHolder">
+            <canvas id="cavas2DBase" width="960" height="720"></canvas>
+        </div>
+    </div>
+</body>
+</html>
