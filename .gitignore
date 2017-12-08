@@ -3,9 +3,6 @@ I# Mac OS X
 *~
 *.bak
 
-# Windows
-Thumbs.db
-
 # Release package
 /node_modules/*
 /src/css/*
@@ -17,6 +14,8 @@ desktop.ini
 .buildpath
 .project
 .settings
+*.iml
+.idea
 
 nbproject/
 .idea/*
@@ -34,3 +33,4 @@ prepros.cfg
 *.map
 *[! -~]*
 public/gulpfile.js
+
