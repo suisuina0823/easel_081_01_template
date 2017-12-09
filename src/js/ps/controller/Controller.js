@@ -20,19 +20,5 @@ this.ps = this.ps||{};
         ps.BroadCaster.setContentAnim(_obj);
     };
 
-    /**
-     * bodyにラインを引くclassを指定します
-     */
-    Controller.setBodyBgLine = function(){
-        document.body.className = "bgline";
-    };
-
-    /**
-     * 2Dコンテンツのレンダリングなどをstopします
-     */
-    Controller.stop2DContent = function(){
-        createjs.Ticker.removeAllEventListeners();
-    };
-
     ps.Controller = Controller;
 }());
