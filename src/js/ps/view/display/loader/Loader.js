@@ -77,8 +77,6 @@ this.ps = this.ps||{};
 
     p.setDisplay = function(__loadManager){
         this._loadManager = __loadManager;
-        //this.x = Math.floor(ps.DataMain.stageWidth * 0.5);
-        //this.y = Math.floor(ps.DataMain.stageHeight * 0.5);
         this._centerX = Math.floor(ps.DataMain.stageWidth * 0.5);
         this._centerY = Math.floor(ps.DataMain.stageHeight * 0.5);
 
