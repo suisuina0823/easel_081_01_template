@@ -1,6 +1,6 @@
 ## About
 
-This is MVC template file that use easel.js and three.js.
+
 
 
 ## Usage
